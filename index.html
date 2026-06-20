@@ -6,13 +6,22 @@
     <title>Portfolio of Marie Curie</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="MadameCurie.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- ==== header and nav ==== -->
     <header>
-      <nav>
-        <h1>Marie Curie</h1>
-        <ul>
+      <nav class="container">
+        <ul class="navigation">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#work">Work</a></li>
@@ -21,20 +30,22 @@
         </ul>
       </nav>
     </header>
-    <hr />
     <main>
       <!-- ===== Home section ===== -->
       <section id="home">
-        <h2>Introductiont</h2>
-        <p>
-          Marie Curie (1867–1934) highlights her pioneering career. She remains
-          the only person to win Nobel Prizes in two distinct scientific fields
-          (Physics in 1903, Chemistry in 1911)
-        </p>
+        <div class="first">
+          <h1>Marie Curie</h1>
+          <p>
+            Marie Curie (1867–1934) highlights her pioneering career. She
+            remains the only person to win Nobel Prizes in two distinct
+            scientific fields (Physics in 1903, Chemistry in 1911)
+          </p>
+          <div class="image"><img src="./marie-curie.jpg" alt="" /></div>
+        </div>
       </section>
-      <hr />
+
       <!-- ===== About section ===== -->
-      <section id="about">
+      <section id="about" class="">
         <h2>About</h2>
         <p>
           Welcome to the portfolio of <>Marie Skłodowska Curie (7 November 1867
@@ -128,8 +139,6 @@
             </tr>
           </tbody>
         </table>
-
-        <hr />
       </section>
 
       <!-- ===== Resume section ===== -->
@@ -187,7 +196,6 @@
         </ul>
       </section>
 
-      <hr />
       <!-- ===== Contact section ===== -->
       <section id="contact">
         <h2>Contact</h2>
@@ -227,8 +235,6 @@
             <button type="submit">Submit</button>
           </fieldset>
         </form>
-
-        <hr />
       </section>
     </main>
     <!-- ===== Links if you want to do reserch about Marie Curie ===== -->
